@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <script>
+            var ejex,ejey
+            ejex=prompt('Ingrese el valor del eje x')
+            ejey=prompt('Ingrese el valor del eje y')
+
+            if (ejex>0 & ejey>0){
+                document.write('Se encuentra ubicado en el primer cuadrante')
+            
+            } else {
+                if (ejex>0 & ejey<0){
+                    document.write('Se encuentra ubicado en el cuarto cuadrante')
+                    
+                } else { 
+                    if (ejex<0 & ejey>0){
+                        document.write('Se encuentra ubicado en el segundo cuadrante')
+
+                    } else{
+                        if (ejex<0 & ejey<0){
+                            document.write('Se encuentra ubicado en el tercer cuadrante')
+                        } 
+                        }
+                    }
+
+                }
+        </script>
+    </body>
+</html>
